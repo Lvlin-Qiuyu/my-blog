@@ -5,6 +5,7 @@ export default {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
+    base: '/myBlog/',
     themeConfig: {
         logo: '/logo.png',
         sidebar: [
