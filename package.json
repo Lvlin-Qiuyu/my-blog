@@ -1,0 +1,25 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "LvLin 的前端小站，将自己所学到的知识记录下来，以输出促进输入，同时方便查阅。",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lvlin-Qiuyu/myBlog.git"
+  },
+  "author": "LvLin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lvlin-Qiuyu/myBlog/issues"
+  },
+  "homepage": "https://github.com/Lvlin-Qiuyu/myBlog#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.15",
+    "vue": "^3.2.39"
+  }
+}
