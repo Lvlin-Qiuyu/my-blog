@@ -5,7 +5,7 @@ export default {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
-    base: '/myBlog/',
+    base: '/my-blog/',
     themeConfig: {
         logo: '/logo.png',
         sidebar: [
