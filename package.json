@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "LvLin 的前端小站，将自己所学到的知识记录下来，以输出促进输入，同时方便查阅。",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -21,5 +22,8 @@
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.15",
     "vue": "^3.2.39"
+  },
+  "dependencies": {
+    "globby": "^13.1.2"
   }
 }
