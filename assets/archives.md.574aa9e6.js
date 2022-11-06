@@ -1,0 +1,1 @@
+import{_ as t,c as a,e as r,o as s,r as o}from"./app.51cf01e2.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{"sidebar":false,"layout":"page"},"headers":[],"relativePath":"archives.md"}'),c={name:"archives.md"};function n(i,p,_,d,l,m){const e=o("Archives",!0);return s(),a("div",null,[r(e)])}const v=t(c,[["render",n]]);export{h as __pageData,v as default};
