@@ -24,13 +24,33 @@ async function config() {
             },
             sidebar: [
                 {
-                    text: 'JavaScript',
+                    text: 'JavaScript', 
                     items: [
                         { 
-                        text: 'Math对象',
-                        collapsible: true,
-                        link: '/JavaScript/Math对象'
+                            text: 'Math对象',
+                            collapsible: true,
+                            link: '/JavaScript/Math对象'
                         },
+                    ]
+                },
+                {
+                    text: '算法',
+                    items: [
+                        {
+                            text: '动态规划',
+                            collapsible: true,
+                            link: '/algorithm/动态规划.md'
+                        }
+                    ]
+                },
+                {
+                    text: '其它',
+                    items: [
+                        {
+                            text: 'vitpress 搭建静态博客',
+                            collapsible: true,
+                            link: '/others/vitepress静态博客搭建.md'
+                        }
                     ]
                 }
             ],
