@@ -11,7 +11,7 @@ export async function getAllArticles() {
             year: content.mtime.toJSON().slice(0, 4),
             updateDate: content.mtime.toJSON().slice(5, 10),
             title: item.split('/').at(-1).replace('.md', ''),
-            path: item.replace('docs', '')
+            path: item.replace('docs', '').replace('.md', '')
         };
     });
     
