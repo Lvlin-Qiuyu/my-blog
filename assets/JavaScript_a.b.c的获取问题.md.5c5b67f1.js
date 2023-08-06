@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as e}from"./app.51cf01e2.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"JavaScript/a.b.c\u7684\u83B7\u53D6\u95EE\u9898.md"}'),c={name:"JavaScript/a.b.c\u7684\u83B7\u53D6\u95EE\u9898.md"};function r(_,o,s,n,p,i){return e(),t("div")}const f=a(c,[["render",r]]);export{m as __pageData,f as default};
