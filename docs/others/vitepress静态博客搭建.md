@@ -44,12 +44,11 @@ $ yarn docs:dev
 # 或者 npm run docs:dev
 ```
 
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/006155ac62d044deb5b5576b6b7f5e72~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](./imgs/vitepress静态博客搭建/dev.png)
 
 从浏览器访问页面：
 
-
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8183e52b84954edcb4af28491a4c184b~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](./imgs/vitepress静态博客搭建/begin.png)
 
 接下来所有的变更都能够实时在页面上看到效果（即热更新）。
 
@@ -105,7 +104,7 @@ export default {
 
 页面效果如下：
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1a205917d39a4c1d812f64cb4fadc831~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](./imgs/vitepress静态博客搭建/sidebar.png)
 
 如果希望侧边栏可折叠，就加一个配置项 `collapsible: true`：
 
@@ -128,7 +127,7 @@ sidebar: [
 
 侧边栏就会有个折叠按钮：
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d451f2aa999a457db1589bd1888e3845~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](./imgs/vitepress静态博客搭建/foldSidebar.png)
 
 ### 3. 首页配置
 
@@ -158,7 +157,7 @@ features:
 
 简单的静态博客页面就搭建完成了 👇。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ef8b46cd8da842c3bf5d5f5c815d05e7~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](./imgs/vitepress静态博客搭建/pageOne.png)
 
 ### 4. 首页样式优化
 
@@ -232,3 +231,6 @@ export default {
 }
 ```
 
+具体效果如下所示：
+
+![image.png](./imgs/vitepress静态博客搭建/image-20220923005035420.png)
