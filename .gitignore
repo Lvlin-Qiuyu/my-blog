@@ -104,3 +104,7 @@ dist
 .tern-port
 
 package-lock.json
+
+# vitepress cache
+docs/.vitepress/cache
+docs/.vitepress/.temp

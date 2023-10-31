@@ -1,7 +1,7 @@
 {
   "name": "my-blog",
   "version": "1.0.0",
-  "description": "LvLin 的前端小站，将自己所学到的知识记录下来，以输出促进输入，同时方便查阅。",
+  "description": "LvLin 的个人网站。",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -20,10 +20,19 @@
   },
   "homepage": "https://github.com/Lvlin-Qiuyu/my-blog#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.15",
-    "vue": "^3.2.39"
+    "@arco-design/web-vue": "^2.52.1",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "unplugin-vue-define-options": "^1.3.18",
+    "vitepress": "^1.0.0-rc.10",
+    "vue": "^3.3.4"
   },
   "dependencies": {
-    "globby": "^13.1.2"
+    "codemirror": "^6.0.1",
+    "cross-spawn": "^7.0.3",
+    "diff": "^5.1.0",
+    "globby": "^13.2.2",
+    "vue-codemirror": "^6.1.1"
   }
 }

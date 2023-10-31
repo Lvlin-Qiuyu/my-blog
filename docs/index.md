@@ -11,7 +11,7 @@ hero:
     actions:
         - theme: brand
           text: 开始阅读
-          link: /JavaScript/Math对象
+          link: /feNote/JavaScript/Math对象
 features:
     - icon: 🦏
       title: JavaScript
