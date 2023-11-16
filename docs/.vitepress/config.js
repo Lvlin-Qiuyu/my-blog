@@ -56,9 +56,11 @@ async function config() {
 export default config();
 
 function sidebarFeNote() {
+    // 有新的文件夹修改该 Map 即可
     let pathMap = {
         JavaScript: 'JavaScript',
-        others: '其它'
+        others: '其它',
+        Rust: 'Rust 相关'
     }
     let config = [];
 
