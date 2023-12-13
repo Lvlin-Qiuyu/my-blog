@@ -48,6 +48,10 @@
 
 <script setup>
 import { ref, shallowRef, nextTick, watch } from 'vue';
+// 这里为解决打包报错的问题，采用这种引入方式
+// 但是这种引入方式会导致开发环境下页面异常和 codemirror 报错
+// 开发环境时使用这种引入方式
+// import { Codemirror } from "vue-codemirror";
 import pkg from 'vue-codemirror/dist/vue-codemirror.cjs.js';
 const { Codemirror } = pkg;
 import { StateField, StateEffect } from "@codemirror/state";
